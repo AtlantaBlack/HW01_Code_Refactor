@@ -3,6 +3,28 @@
 
  https://atlantablack.github.io/HW01_Code_Refactor/
 
+**Version 2**
+
+Version 2 focusses on optimising the header and footer sections.
+
+**Changes made to HTML**
+```
+• Replaced <div> tag in the header with <nav> to create the navigation bar
+• Added <span> tag with img role and aria-label for better accessibility
+```
+
+**Changes made to CSS**
+```
+• The following selectors were modified in some way:
+    .header h1 .seo changed to .seo
+    .header div changed to nav
+    .header div ul changed to ul
+    .header div ul li changed to li
+• Consolidated font-family for header and footer into one selector
+```
+
+--
+
 **Version 1.1**
 
 Fixed formatting of README Version 1 to make it readable. No changes made to HTML or CSS documents at this stage.

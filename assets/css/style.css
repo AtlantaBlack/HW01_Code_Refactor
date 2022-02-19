@@ -17,23 +17,31 @@ p {
     font-size: 16px;
 }
 
+/* consolidated font-family for header and footer here */
+header, footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* removed "." from header to change from class to element selector */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* removed "." */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* removed ".header h1" to clean this up */
+.seo {
     color: #d9dcd6;
 }
 
-header div {
+/* replaced ".header div" with "nav" */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -41,11 +49,13 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+/* removed ".header div" for clean up */
+ul {
     list-style-type: none;
 }
 
-header div ul li {
+/* removed ".header div ul" for clean up */
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -188,10 +198,10 @@ header div ul li {
     font-size: 36px;
 }
 
+/* removed font-family from footer to combine it with header */
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
