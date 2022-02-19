@@ -3,6 +3,36 @@
 
  https://atlantablack.github.io/HW01_Code_Refactor/
 
+**Version 3**
+
+Version 3 optimises the main body of content on the left. The large image displayed above the content area and sidebar is given text so it is not missed by screen readers.
+
+**Changes made to HTML**
+```
+• Modified <div class="hero"> to include img role and aria-label for big display image
+• Changed <div> tags within <div class="content"> to <section> tags
+• Added alt-text to images within <div class="content">
+```
+
+**Changes made to CSS**
+```
+• Moved benefits css below main content
+• Consolidated the following class selectors under one main class selector:
+    .search-engine-optimization
+    .online-reputation-management
+    .social-media-marketing
+• Consolidated the following img class selectors into one:
+    .search-engine-optimization img
+    .online-reputation-management img
+    .social-media-marketing img
+• Consolidated the following h2 class selectors into one:
+    .search-engine-optimization h2
+    .online-reputation-management h2
+    .social-media-marketing h2
+• Moved font-family from nav and content-main into body
+```
+
+
 **Version 2**
 
 Version 2 focusses on optimising the header and footer sections.
