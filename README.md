@@ -3,6 +3,44 @@
 
  https://atlantablack.github.io/HW01_Code_Refactor/
 
+
+**Version 4**
+
+Version 4 will optimise the content in the sidebar to the right. The main div element will be changed to an aside element.
+
+**Changes made to HTML**
+```
+• Synced class name changes for main-content <div> and <section> tags
+• Changed <div class="benefits"> to <aside>
+• Changed <div> tags within <aside> to <section> tags
+• Added alt-text for images in <aside>
+```
+
+**Changes made to CSS**
+```
+• Renamed the following class selectors to be more specific:
+    .content changed to .content-container
+    .content-text changed to .main-content
+    .content-text img changed to .main-content img
+    .content-text h2 changed to .main-content h2
+• Changed .benefits class selector to aside element selector
+• Consolidated the following class selectors into one main class selector:
+    .benefit-lead
+    .benefit-brand
+    .benefit-cost
+• Consolidated the following h3 class selectors into one:
+    .benefit-lead h3
+    .benefit-brand h3
+    .benefit-cost h3
+• Consolidated the following img class selectors into one:
+    .benefit-lead img
+    .benefit-brand img
+    .benefit-cost img
+• Removed font-family from aside selector as it was redundant (same property is found in body selector)
+```
+
+--
+
 **Version 3**
 
 Version 3 optimises the main body of content on the left. The large image displayed above the content area and sidebar is given text so it is not missed by screen readers.
@@ -32,6 +70,7 @@ Version 3 optimises the main body of content on the left. The large image displa
 • Moved font-family from nav and content-main into body
 ```
 
+--
 
 **Version 2**
 
