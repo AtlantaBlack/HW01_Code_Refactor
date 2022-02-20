@@ -78,14 +78,14 @@ li {
     margin-left: 25px;
 }
 
-/* renamed div container for main content to make it more specific */
+/* renamed div container for main content to make it more specific and easier to identify */
 .content-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* moved the group of main-content selectors up for better organisation */
+/* moved the group of main-content selectors up for better organisation, to match the appearance order of HTML content */
 
 /* consolidated styling for main content area */
 .main-content {
@@ -118,7 +118,7 @@ aside {
     background-color: #2589bd;
 }
 
-/* moved sidebar selectors down beneath main-content selectors for better organisation  */
+/* moved sidebar selectors down beneath main-content selectors for better organisation, to better match appearance order of HTML content */
 
 /* consolidated styling of sidebar info */
 .benefits {
