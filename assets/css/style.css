@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* moved font-family from nav and content-main here */
+/* font-family for body of website placed here */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -19,30 +19,27 @@ p {
     font-size: 16px;
 }
 
-/* consolidated font-family for header and footer here */
+/* consolidated font-family for header and footer */
 header, footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* removed "." from header to change from class to element selector */
 header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* removed "." */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* removed ".header h1" to clean this up */
 .seo {
     color: #d9dcd6;
 }
 
-/* replaced ".header div" with "nav" */
+/* navigation bar styling */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,12 +47,10 @@ nav {
     font-size: 20px;
 }
 
-/* removed ".header div" for clean up */
 ul {
     list-style-type: none;
 }
 
-/* removed ".header div ul" for clean up */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -80,15 +75,14 @@ li {
     margin-left: 25px;
 }
 
-/* modified class name from .content */
+/* div renamed */
 .content-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* consolidate all content class properties under one main class selector */
-/* modified class name from .content-text */
+/* consolidated styling for main content area of site */
 .main-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -97,20 +91,18 @@ li {
     color: #ffffff;
 }
 
-/* consolidate all content imgs under one class selector */
-/* modified class name from .content-text img */
+/* consolidated styling for images in the main content area */
 .main-content img {
     max-height: 200px;
 }
 
-/* consolidate all content h2s under one class selector */
-/* modified class name from .content-text h2 */
+/* consolidated styling for h2 in main content area */
 .main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* change sidebar div class selector to aside element selector */
+/* sidebar information as an aside element */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -121,86 +113,26 @@ aside {
     background-color: #2589bd;
 }
 
-/* consolidate all sidebar content classes into one class selector */
+/* consolidated styling of sidebar info */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* consolidate all sidebar h3 classes into one class selector */
+/* consolidated styling of sidebar h3 */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* consolidate all sidebar img classes into one class selector */
+/* consolidated styling of sidebar images */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-} */
-
-/* .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* removed font-family from footer to combine it with header */
+/* font-family removed */
 footer {
     padding: 30px;
     clear: both;
