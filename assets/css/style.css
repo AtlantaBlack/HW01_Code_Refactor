@@ -4,12 +4,13 @@
     margin: 0;
 }
 
-/* font-family for body of website placed here */
+/* font-family for body of website (including nav and main-content) consolidated here */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* moved a & p here for easier viewing/organisation */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -24,6 +25,7 @@ header, footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* clean up of header selector names */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -35,6 +37,7 @@ header h1 {
     font-size: 48px;
 }
 
+/* class name cleaned up */
 .seo {
     color: #d9dcd6;
 }
@@ -75,14 +78,16 @@ li {
     margin-left: 25px;
 }
 
-/* div renamed */
+/* renamed div container for main content to make it more specific */
 .content-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* consolidated styling for main content area of site */
+/* moved the group of main-content selectors up for better organisation */
+
+/* consolidated styling for main content area */
 .main-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -113,6 +118,8 @@ aside {
     background-color: #2589bd;
 }
 
+/* moved sidebar selectors down beneath main-content selectors for better organisation  */
+
 /* consolidated styling of sidebar info */
 .benefits {
     margin-bottom: 32px;
@@ -132,7 +139,7 @@ aside {
     max-width: 150px;
 }
 
-/* font-family removed */
+/* font-family removed from footer, has been consolidated further up with a header selector */
 footer {
     padding: 30px;
     clear: both;
