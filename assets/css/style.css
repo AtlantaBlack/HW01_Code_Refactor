@@ -10,7 +10,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* moved a & p here for easier viewing/organisation */
+/* moved a & p selectors here for easier viewing/organisation */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -78,7 +78,7 @@ li {
     margin-left: 25px;
 }
 
-/* renamed div container for main content to make it more specific and easier to identify */
+/* renamed div container for main contents to make it more specific and easier to identify */
 .content-container {
     width: 75%;
     display: inline-block;
@@ -107,8 +107,10 @@ li {
     font-size: 36px;
 }
 
-/* sidebar information as an aside element */
-aside {
+/* moved side-content (extras) selectors down beneath main-content selectors for better organisation, to better match flow order of HTML content */
+
+/* side content (extras) styling put in a class of its own */
+.extras-container {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -118,22 +120,20 @@ aside {
     background-color: #2589bd;
 }
 
-/* moved sidebar selectors down beneath main-content selectors for better organisation, to better match appearance order of HTML content */
-
-/* consolidated styling of sidebar info */
-.benefits {
+/* consolidated styling of extras info */
+.extras {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* consolidated styling of sidebar h3 */
-.benefits h3 {
+/* consolidated styling of extras h3 */
+.extras h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* consolidated styling of sidebar images */
-.benefits img {
+/* consolidated styling of extras images */
+.extras img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
