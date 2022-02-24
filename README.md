@@ -4,7 +4,7 @@
 
 Accessible design is an important consideration for any business to take. Not only does it increase search engine optimisation (SEO), allowing more users to find and obtain the information, it also extends this access to a greater variety of users regardless of their individual needs.
 
-The purpose of this project is to add web accessibility to the client's existing site using semantic HTML, and to improve its codebase for the site's long-term sustainability overall.
+The purpose of this project is to add web accessibility to the client's existing site using semantic HTML, and to improve the site's codebase for its long-term sustainability.
 
 In order to make an accessible web design, I learnt to really consider the purpose of each element on a page and how it interacted with other elements in the layout, and to code in such a way that the end result would allow assistive technologies (such as screen readers) to provide a smooth experience for its user.
 
