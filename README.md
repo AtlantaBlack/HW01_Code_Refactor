@@ -6,7 +6,15 @@ Accessible design is an important consideration for any business to take. Not on
 
 The purpose of this project is to add web accessibility to the client's existing site using semantic HTML, and to improve the site's codebase for its long-term sustainability.
 
-In order to make an accessible web design, I learnt to really consider the purpose of each element on a page and how it interacted with other elements in the layout, and to code in such a way that the end result would allow assistive technologies (such as screen readers) to provide a smooth experience for its user.
+---
+
+## Technologies Used
+
+This application was built using: 
+
+* HTML
+
+* CSS
 
 ---
 
@@ -16,7 +24,7 @@ In order to make an accessible web design, I learnt to really consider the purpo
 
 [Link to GitHub repository](https://github.com/AtlantaBlack/Horiseon_Code_Refactor)
 
-![Screenshot of Horiseon website](assets/images/01-html-css-git-homework-demo.png?raw=true "Horiseon website screenshot")
+![Screenshot of Horiseon website](assets/images/screenshot-horiseon-refactor.jpg?raw=true "Horiseon website screenshot")
 
 ---
 
@@ -34,10 +42,6 @@ In order to make an accessible web design, I learnt to really consider the purpo
 
 [GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-AskBCS Learning Assistant
-
-Class notes
-
 ---
 
 ## License
@@ -45,3 +49,9 @@ Class notes
 © 2022 Sushan Yue
 
 [MIT License](/LICENSE.txt)
+
+---
+
+## Contact
+
+[Sushan Yue @ GitHub](https://github.com/AtlantaBlack)
