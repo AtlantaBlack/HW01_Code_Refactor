@@ -36,6 +36,8 @@ In order to make an accessible web design, I learnt to really consider the purpo
 
 AskBCS Learning Assistant
 
+Class notes
+
 ---
 
 ## License
