@@ -1,4 +1,4 @@
-# BCS HW 01 - Code Refactoring
+# Code Refactoring for Horiseon
 
 ## Description
 
@@ -12,9 +12,9 @@ In order to make an accessible web design, I learnt to really consider the purpo
 
 ## Usage
 
-[Link to deployed application via GitHub Pages](https://atlantablack.github.io/HW01_Code_Refactor/)
+[Link to deployed application via GitHub Pages](https://atlantablack.github.io/Horiseon_Code_Refactor/)
 
-[Link to GitHub repository](https://github.com/AtlantaBlack/HW01_Code_Refactor)
+[Link to GitHub repository](https://github.com/AtlantaBlack/Horiseon_Code_Refactor)
 
 ![Screenshot of Horiseon website](assets/images/01-html-css-git-homework-demo.png?raw=true "Horiseon website screenshot")
 
