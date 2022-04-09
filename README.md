@@ -24,6 +24,10 @@ This application was built using:
 
 [Link to GitHub repository](https://github.com/AtlantaBlack/Horiseon_Code_Refactor)
 
+---
+
+## Screenshots of Application
+
 ![Screenshot of Horiseon website](assets/images/screenshot-horiseon-refactor.jpg?raw=true "Horiseon website screenshot")
 
 ---
